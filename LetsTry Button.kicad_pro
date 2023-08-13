@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.2,
-          "height": 2.2,
-          "width": 2.2
+          "drill": 0.0,
+          "height": 0.25,
+          "width": 1.475
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -141,10 +141,10 @@
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 5,
           "td_on_pad_in_zone": false,
-          "td_onpadsmd": true,
+          "td_onpadsmd": false,
           "td_onroundshapesonly": false,
-          "td_ontrackend": false,
-          "td_onviapad": true
+          "td_ontrackend": true,
+          "td_onviapad": false
         }
       ],
       "teardrop_parameters": [
@@ -182,13 +182,19 @@
         0.05,
         0.1,
         0.15,
+        0.25,
         0.3,
-        0.5
+        0.5,
+        1.0
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.3
         },
         {
           "diameter": 0.7,
@@ -427,7 +433,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
